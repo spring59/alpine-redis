@@ -31,3 +31,15 @@ docker build --platform=linux/arm64 -t spring59/alpine-redis:7.0 .
 amd：
 
 docker build -t spring59/alpine-redis .
+
+
+备注：
+仓库所需要下载文件地址
+
+https://github.com/tianon/gosu/releases/download/1.14/gosu-amd64
+
+https://github.com/tianon/gosu/releases/download/1.14/gosu-arm64
+
+http://download.redis.io/releases/redis-7.0.0.tar.gz
+
+
