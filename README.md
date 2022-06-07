@@ -10,6 +10,8 @@ amd64:
 
 docker pull spring59/alpine-redis:latest
 
+docker run -itd --name redis -p 6379:6379 spring59/alpine-redis:{tag}
+
 默认密码：alpine
 
 #编译
