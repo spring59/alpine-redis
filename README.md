@@ -20,6 +20,10 @@ redis 7.0.0版本，其他版本自行下载替换包即可。
 
 编译时注意arm和amd架构，dockerfile里有注释说明。如果不想要默认密码，注释掉redis.conf里requirepass
 
+git clone git@github.com:spring59/alpine-redis.git
+ 
+cd alpine-redis
+
 arm:
 
 docker build --platform=linux/arm64 -t spring59/alpine-redis:7.0 .
