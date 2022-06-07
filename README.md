@@ -16,7 +16,9 @@ docker run -itd --name redis -p 6379:6379 spring59/alpine-redis:{tag}
 
 #编译
 
-如果不想要默认密码，注释掉redis.conf里requirepass
+仓库里是redis 7.0.0版本，可自行下载替换包即可。
+
+编译时注意arm和amd架构，dockerfile里有注释说明。如果不想要默认密码，注释掉redis.conf里requirepass
 
 arm:
 
